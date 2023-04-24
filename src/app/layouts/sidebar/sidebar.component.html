@@ -1,0 +1,112 @@
+<aside id="sidebar" class="sidebar">
+   <ul class="sidebar-nav" id="sidebar-nav">
+      <li class="nav-item"> <a class="nav-link " routerLink="/dashboard"> <i class="bi bi-grid"></i>
+            <span>Acceuil</span> </a></li>
+
+      <li class="nav-item">
+         <a class="nav-link collapsed" data-bs-target="#application-nav" data-bs-toggle="collapse" href="#"> <i
+               class="bi bi-menu-button-wide"></i><span>Application</span><i class="bi bi-chevron-down ms-auto"></i>
+         </a>
+         <ul id="application-nav" class="nav-content collapse " data-bs-parent="#application-nav">
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Gestion De Dossier</span> </a></li>
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Utilisateurs</span> </a></li>
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>les Roles</span> </a></li>
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Serveur Batch</span> </a></li>
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Application Mobile</span> </a></li>
+
+         </ul>
+      </li>
+
+
+
+
+
+      <li class="nav-item">
+         <a class="nav-link collapsed" data-bs-target="#locaux-nav" data-bs-toggle="collapse" href="#"> <i
+               class="bx bxs-city"></i><span>Locaux</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+         <ul id="locaux-nav" class="nav-content collapse " data-bs-parent="#application-nav">
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Liste Des sites</span> </a></li>
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Liste Locaux(Zones)</span> </a></li>
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Affectation Utilisateurs / Locaux</span> </a></li>
+
+
+         </ul>
+      </li>
+
+
+
+      <li class="nav-item">
+         <a class="nav-link collapsed" data-bs-target="#equipement-nav" data-bs-toggle="collapse" href="#"> <i
+               class="bx bxs-add-to-queue"></i><span>Equipement</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+         <ul id="equipement-nav" class="nav-content collapse " data-bs-parent="#application-nav">
+            <li> <a routerLink="/boitier"> <i class="bi bi-circle"></i><span>Liste Des Boitiers</span> </a></li>
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Liste Des Capteurs</span> </a></li>
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Actionneurs</span> </a></li>
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Liste Des Analyseurs</span> </a></li>
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Lampes</span> </a></li>
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Listes Des Onduleurs</span> </a></li>
+         </ul>
+      </li>
+
+
+      <li class="nav-item">
+         <a class="nav-link collapsed" data-bs-target="#capts-nav" data-bs-toggle="collapse" href="#"> <i
+               class="bi bi-broadcast-pin"></i><span>Capteurs et Actionneurs</span><i
+               class="bi bi-chevron-down ms-auto"></i> </a>
+         <ul id="capts-nav" class="nav-content collapse " data-bs-parent="#application-nav">
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Capteurs Par Actionneurs</span> </a></li>
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Capteurs</span> </a></li>
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Actionneurs</span> </a></li>
+         </ul>
+      </li>
+
+
+      <li class="nav-item">
+         <a class="nav-link collapsed" data-bs-target="#energie-nav" data-bs-toggle="collapse" href="#"> <i
+               class="bi bi-thermometer-snow"></i><span>Consommation et Energie</span><i
+               class="bi bi-chevron-down ms-auto"></i> </a>
+         <ul id="energie-nav" class="nav-content collapse " data-bs-parent="#application-nav">
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Tableau De Consommation</span> </a></li>
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Consommation Horaire</span> </a></li>
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Consommation Journalier</span> </a></li>
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Consommation mensuelle</span> </a></li>
+
+         </ul>
+      </li>
+
+      <li class="nav-item">
+         <a class="nav-link collapsed" data-bs-target="#eclairage-nav" data-bs-toggle="collapse" href="#"> <i
+               class="bi bi-lightbulb-fill"></i><span>Eclairage</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+         <ul id="eclairage-nav" class="nav-content collapse " data-bs-parent="#application-nav">
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Cartes Des Lampes </span> </a></li>
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Planification Eclairage</span> </a></li>
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Commande Maunelle</span> </a></li>
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Historique Commande Manuelle Eclairage</span> </a>
+            </li>
+
+         </ul>
+      </li>
+
+
+      <li class="nav-item">
+         <a class="nav-link collapsed" data-bs-target="#enrgSol-nav" data-bs-toggle="collapse" href="#"> <i
+               class="bi bi-sun-fill"></i><span>Energie Solaire </span><i class="bi bi-chevron-down ms-auto"></i> </a>
+         <ul id="enrgSol-nav" class="nav-content collapse " data-bs-parent="#application-nav">
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Tableau De Consommation</span> </a></li>
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Consommation Horaire</span> </a></li>
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Consommation Journalier</span> </a></li>
+            <li> <a routerLink="#"> <i class="bi bi-circle"></i><span>Consommation mensuelle</span> </a></li>
+
+         </ul>
+      </li>
+
+
+      <li class="nav-heading">Pages</li>
+      <li class="nav-item"> <a class="nav-link collapsed" routerLink="/user-profile"> <i class="bi bi-person"></i>
+            <span>Profile</span> </a></li>
+      <li class="nav-item"> <a class="nav-link collapsed" routerLink="/pages-faq"> <i class="bi bi-question-circle"></i>
+            <span>F.A.Q</span> </a></li>
+      <li class="nav-item"> <a class="nav-link collapsed" routerLink="/pages-contact"> <i class="bi bi-envelope"></i>
+            <span>Contact</span> </a></li>
+   </ul>
+</aside>

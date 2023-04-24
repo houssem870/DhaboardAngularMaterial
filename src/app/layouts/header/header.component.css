@@ -1,0 +1,13 @@
+.header {
+ 
+    height: 124px;
+    box-shadow: rgba(1, 41, 112, 0.1) 0px 2px 20px;
+    background: linear-gradient(to right, #8B0000, #B22222, #DC143C);
+
+ 
+}
+.logo img {
+    max-height: 100px;
+    margin-right: 6px;
+    margin-top: 10px;
+}
