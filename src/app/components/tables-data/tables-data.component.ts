@@ -32,23 +32,10 @@ export class TablesDataComponent implements OnInit, OnDestroy {
     dialogConfig.width = '800px';
     dialogConfig.height = '500px';
     dialogConfig.position = {'top': '-37%', 'left': '25%' };
-    
-
 
     const dialogRef=this.dialog.open(DialogComponent, dialogConfig);
 
     // Add a click listener to the document
-    dialogRef.afterOpened().subscribe(() => {
-      this.onClick = (event: MouseEvent) => {
-        const dialogEl = document.querySelector('.cdk-overlay-pane');
-        if (dialogEl && !dialogEl.contains(event.target as HTMLElement)) {
-          // Close the dialog if the click is outside the dialog
-          this.dialog.closeAll();
-          // Remove the click listener from the document
-          document.removeEventListener('click', this.onClick);
-        }
-      };
-      document.addEventListener('click', this.onClick);
-    });
+    
   }
 }
